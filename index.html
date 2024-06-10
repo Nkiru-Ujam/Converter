@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Converter</h1>
+      </div>
+
+      <div class="top">
+        <select name="Select Unit" id="select-unit" class="select-btn">
+          <option value="select" disabled selected>Select your Unit</option>
+          <option value="kg to g">KG to G</option>
+          <option value="g to kg">G to KG</option>
+          <option value="k to c">Kelvin to Celsius</option>
+          <option value="c to k">Celsius to Kelvin</option>
+          <option value="ft to yard">Ft to Yard</option>
+          <option value="yard to ft">Yard to Ft</option>
+          <option value="celsius to fahrenheit">Celsius to Fahrenheit</option>
+          <option value="fahrenheit to celsius">Fahrenheit to Celsius</option>
+          <option value="mm to cm">Millimeter to Centimeter</option>
+          <option value="cm to mm">Centimeter to Millimeter</option>
+        </select>
+      </div>
+
+      <div class="body-section">
+        <input type="number" class="number" />
+        <p class="result-field"></p>
+      </div>
+      <div class="bottom">
+        <button class="convert-btn">Convert</button>
+        <button class="clear-btn">Clear</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
